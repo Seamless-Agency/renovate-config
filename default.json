@@ -1,0 +1,23 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "github>sanity-io/renovate-config:base",
+        "github>sanity-io/renovate-config:semantic-commit-type",
+        "github>sanity-io/renovate-config:security",
+        "github>sanity-io/renovate-config:strategy",
+        "github>sanity-io/renovate-config:labels",
+        "github>sanity-io/renovate-config:lock-file-maintenance",
+        "github>sanity-io/renovate-config:node-lts",
+        "github>sanity-io/renovate-config:typescript",
+        "github>sanity-io/renovate-config:schedule",
+        "github>sanity-io/renovate-config:min-age-3days",
+        "github>sanity-io/renovate-config:group-recommended",
+        "github>sanity-io/renovate-config:group-non-major",
+        "github>sanity-io/renovate-config:workarounds-esm",
+        "github>sanity-io/renovate-config:workarounds-babel-plugin-react-compiler",
+        "github>sanity-io/renovate-config:dedupe"
+    ],
+    "ignorePresets": [
+        "github>sanity-io/renovate-config:branding"
+    ]
+}
