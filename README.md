@@ -14,7 +14,7 @@ To use this configuration in your repository, create a `renovate.json` file with
 
 ## Configuration
 
-This configuration extends multiple presets from `sanity-io/renovate-config`:
+This configuration extends multiple presets from [`sanity-io/renovate-config`](https://github.com/sanity-io/renovate-config):
 
 - **base**: Core Renovate settings
 - **semantic-commit-type**: Semantic commit message formatting
