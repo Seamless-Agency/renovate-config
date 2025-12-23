@@ -17,7 +17,8 @@
         "github>sanity-io/renovate-config:workarounds-esm",
         "github>sanity-io/renovate-config:workarounds-babel-plugin-react-compiler",
         "github>sanity-io/renovate-config:dedupe",
-        "github>Seamless-Agency/renovate-config:security"
+        "github>Seamless-Agency/renovate-config:security",
+        "github>Seamless-Agency/renovate-config:group-non-breaking"
     ],
     "ignorePresets": [
         "github>sanity-io/renovate-config:branding"
