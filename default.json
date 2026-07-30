@@ -22,6 +22,9 @@
     ],
     "prConcurrentLimit": 5,
     "branchConcurrentLimit": 3,
+    "toolSettings": {
+        "nodeMaxMemory": 1536
+    },
     "ignorePresets": [
         "github>sanity-io/renovate-config:branding"
     ]
