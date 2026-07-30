@@ -25,6 +25,10 @@
     "toolSettings": {
         "nodeMaxMemory": 1536
     },
+    "env": {
+        "PNPM_WORKERS": "1",
+        "PNPM_MAX_WORKERS": "1"
+    },
     "ignorePresets": [
         "github>sanity-io/renovate-config:branding"
     ]
