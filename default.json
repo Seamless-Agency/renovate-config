@@ -20,6 +20,8 @@
         "github>Seamless-Agency/renovate-config:security",
         "github>Seamless-Agency/renovate-config:group-non-breaking"
     ],
+    "prConcurrentLimit": 5,
+    "branchConcurrentLimit": 3,
     "ignorePresets": [
         "github>sanity-io/renovate-config:branding"
     ]
